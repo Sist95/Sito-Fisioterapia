@@ -73,7 +73,7 @@
           </p>
           
           <div id="descrizione-completa-armonia" class="collapse d-md-block">
-            <p>Ippocrate, il "padre della medicina", enfatizzava l'importanza dell'armonia tra corpo e mente per il mantenimento della salute.</p>
+           
             <p>"La salute è il risultato dell'armonia tra corpo, mente e spirito."</p>
             <p>Questa idea suggerisce che la salute non dipenda solo da trattamenti medici, ma anche da uno stile di vita equilibrato, che includa una dieta sana, l'esercizio fisico, il benessere emotivo e la cura della propria mente.</p>
             <p>Cambiare le abitudini di vita come chiave per una salute migliore: se un individuo non è pronto ad assumersi la responsabilità della propria salute e del proprio stile di vita, nessun aiuto esterno potrà realmente aiutarlo.</p>
