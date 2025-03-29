@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
         'Rieducazione Pelvi Perineale',
         'Riabilitazione Pre Post Chirurgia',
         'Terapia Strumentale',
+        'Nutrizione',
         
     ];
 
