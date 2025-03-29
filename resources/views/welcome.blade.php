@@ -87,7 +87,7 @@
     
         <!-- Immagine -->
         <div class="col-12 col-md-6 order-1 order-md-2 d-flex">
-          <img src="/images/logo.png" class="img-fluid w-100 h-auto d-block rounded" alt="Osteopata">
+          <img src="/images/Logo.png" class="img-fluid w-100 h-auto d-block rounded" alt="Osteopata">
         </div>
       </div>
     </div>

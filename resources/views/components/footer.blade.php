@@ -4,7 +4,7 @@
         <div class="row">
             <!-- Colonna Dati dell'Azienda -->
             <div class="col-md-4 mb-4 mb-md-0">
-                <img src="/images/logo.png" alt="Logo" class="img-fluid mb-3" style="max-width: 200px;">
+                <img src="/images/Logo.png" alt="Logo" class="img-fluid mb-3" style="max-width: 200px;">
                 <ul class="list-unstyled">
                     <li>Partita IVA: 02 693800696</li>
                     <li>Stefano Ferrara</li>
