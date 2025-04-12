@@ -36,7 +36,6 @@
             </p>
             
             <div id="descrizione-completa-chi-siamo" class="collapse d-md-block">
-              <p>Benvenuti presso lo studio <strong>ARMONIA</strong>, un centro specializzato nella prevenzione e trattamento dei disturbi muscoloscheletrici, neurologici e posturali.</p>
               <p>Il nostro obiettivo è migliorare la qualità della vita dei nostri pazienti e donare benessere a corpo e mente ricercando armonia ed equilibrio attraverso un approccio personalizzato e basato su tecniche fisioterapiche all'avanguardia.</p>
               <p>Il nostro team è composto da fisioterapisti qualificati e costantemente aggiornati sulle migliori metodologie di riabilitazione.</p>
               <p>Crediamo nell'importanza di un trattamento su misura, adatto alle esigenze di ogni paziente, per garantire risultati efficaci e duraturi.</p>
