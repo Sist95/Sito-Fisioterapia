@@ -24,19 +24,7 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Servizi
             </a>
-            <ul class="dropdown-menu d-block d-sm-none" style="max-height: 300px; overflow-y: auto;">
-              @foreach ($services as $service)
-                <li>
-                  <a class="dropdown-item text-capitalize" href="{{ route('byService', ['service' => $service]) }}">
-                    {{ $service->name }}
-                  </a>
-                </li>
-                @if(!$loop->last)
-                  <hr class="dropdown-divider">
-                @endif
-              @endforeach
-            </ul>
-            <ul class="dropdown-menu d-none d-sm-block">
+            <ul class="dropdown-menu" style="max-height: 300px; overflow-y: auto;">
               @foreach ($services as $service)
                 <li>
                   <a class="dropdown-item text-capitalize" href="{{ route('byService', ['service' => $service]) }}">
@@ -49,6 +37,7 @@
               @endforeach
             </ul>
           </li>
+          
           
 
           {{-- @auth
