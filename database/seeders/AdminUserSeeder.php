@@ -14,10 +14,13 @@ class AdminUserSeeder extends Seeder
      */
     public function run(): void
     {
-        User::create([ 
-            'name' => 'Stefano', 
-            'email' => 'stefano@libero.it', 
-            'password' => Hash::make('Stu_Armonia_2025!'), 
-            'is_admin' => true, ]);
+        User::updateOrCreate(
+            ['email' => 'stefano@libero.it'], // Criterio per cercare l'utente
+            [ // Dati da aggiornare o inserire
+                'name' => 'Stefano',
+                'password' => Hash::make('Stu_Armonia_2025!'),
+                'is_admin' => true,
+            ]
+        );
     }
 }

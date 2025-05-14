@@ -22,19 +22,34 @@
           {{-- Aggiunto dropdown categorie --}}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Servizi
+              Servizi
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu d-block d-sm-none" style="max-height: 300px; overflow-y: auto;">
               @foreach ($services as $service)
-                  <li><a class="dropdown-item text-capitalize"
-                     href="{{route('byService', ['service'=>$service])}}">{{$service->name}}</a>
-                  </li>
-                  @if(!$loop->last)
+                <li>
+                  <a class="dropdown-item text-capitalize" href="{{ route('byService', ['service' => $service]) }}">
+                    {{ $service->name }}
+                  </a>
+                </li>
+                @if(!$loop->last)
                   <hr class="dropdown-divider">
-                  @endif
+                @endif
+              @endforeach
+            </ul>
+            <ul class="dropdown-menu d-none d-sm-block">
+              @foreach ($services as $service)
+                <li>
+                  <a class="dropdown-item text-capitalize" href="{{ route('byService', ['service' => $service]) }}">
+                    {{ $service->name }}
+                  </a>
+                </li>
+                @if(!$loop->last)
+                  <hr class="dropdown-divider">
+                @endif
               @endforeach
             </ul>
           </li>
+          
 
           {{-- @auth
           <li class="nav-item dropdown">

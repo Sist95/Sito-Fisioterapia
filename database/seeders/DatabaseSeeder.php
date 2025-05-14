@@ -19,6 +19,8 @@ class DatabaseSeeder extends Seeder
         'Riabilitazione Pre Post Chirurgia',
         'Terapia Strumentale',
         'Nutrizione',
+        'Psicologia',
+        'Valutazioni Neuropsicologiche e degli Apprendimenti'
         
     ];
 

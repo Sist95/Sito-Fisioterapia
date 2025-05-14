@@ -63,9 +63,9 @@
         </div>
       </div>
     
-      <div class="row g-0 align-items-center mt-4">
+      <div class="row align-items-center mt-4">
         <!-- Descrizione con sfondo -->
-        <div class="col-12 col-md-6 order-2 text-white order-md-1 primary-bg d-flex flex-column justify-content-center p-4">
+        <div class="col-12 col-md-6 rounded order-2 text-white order-md-1 primary-bg d-flex flex-column justify-content-center p-4">
           <h3 class="text-center">ARMONIA E SALUTE</h3>
           <p id="descrizione-breve-armonia" class="d-sm-block d-md-none">
             Ippocrate enfatizzava l'importanza dell'armonia tra corpo e mente per il mantenimento della salute.
