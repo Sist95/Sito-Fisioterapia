@@ -32,9 +32,10 @@ class DatabaseSeeder extends Seeder
         $this->call(AdminUserSeeder::class);
         
        foreach($this->services as $service){
-        Service::create([
-            'name' => $service
-        ]);
+        Service::updateOrCreate(
+            ['name' => $service], // Condizione di ricerca
+            []                    // Nessun aggiornamento: se già esiste, non cambia nulla
+        );
        }
     }
 }
