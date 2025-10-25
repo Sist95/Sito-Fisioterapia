@@ -167,7 +167,24 @@
 }
 
 
+/* Stile per le immagini dei professionisti */
+.team-image {
+  max-height: 650px;
+}
 
+/* Stile per i container delle sezioni professionisti */
+.team-section {
+  min-height: 100vh;
+}
+
+.team-image-container {
+  min-height: 50vh;
+}
+
+.team-description {
+  min-height: 50vh;
+  overflow-y: auto;
+}
 
 
 
