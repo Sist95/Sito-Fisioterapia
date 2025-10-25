@@ -10,30 +10,32 @@
   </div>
   
 
-<div class="container-fluid">
+<div class="container-fluid mt-4">
   <!-- BOX 1: Dr. Stefano Ferrara -->
   <div class="row g-0 align-items-stretch team-section">
     <div class="col-12 d-flex flex-column flex-md-row h-100">
 
       <!-- Immagine - sempre prima su mobile con order-1 -->
       <div class="col-md-6 d-flex justify-content-center align-items-center order-1 order-md-1 team-image-container">
-        <img src="/images/stefano.jpg" class="img-fluid w-75 h-auto team-image" alt="Osteopata">
+        <img src="/images/stefano.jpg" class="img-fluid w-90 h-auto team-image" alt="Osteopata">
       </div>
 
       <!-- Descrizione -->
       <div class="col-md-6 d-flex flex-column justify-content-center p-4 order-2 order-md-2 team-description">
         <h3 class="text-center">Dr. Stefano Ferrara - Fisioterapista ed Osteopata</h3>
         <p>
+          Fisioterapista libero professionista, laureato in fisioterapia presso l'università di Chieti, ha conseguito successivamente il diploma da Osteopata presso l'accademia di osteopatia tradizionale (AIOT) a Pescara. Specializzato nel trattamento dei disordini muscolo-scheletrici tramite piani di recupero personalizzati.
+        </p>
+        
+        
+        <div class="collapse d-md-block" id="dettagli-stefano">
+          <p>
           L'osteopatia è una disciplina terapeutica manuale che si basa su un approccio olistico alla
           salute. Attraverso manipolazioni e tecniche manuali non invasive, l'osteopata mira a
           ripristinare l'equilibrio funzionale del corpo, migliorando la mobilità delle strutture (ossa,
           muscoli, articolazioni, visceri, fascia) e favorendo l'autoguarigione.
+          Si concentra non solo sul sintomo, ma sulla causa del disturbo, considerando il corpo come un'unità interconnessa.
         </p>
-        
-        <div class="collapse d-md-block" id="dettagli-stefano">
-          <p>
-            Si concentra non solo sul sintomo, ma sulla causa del disturbo, considerando il corpo come un'unità interconnessa.
-          </p>
           <p>I benefici dell'osteopatia sono:</p>
           <ul>
             <li>Riduzione del dolore muscolo-scheletrico (es. schiena, collo, spalle)</li>

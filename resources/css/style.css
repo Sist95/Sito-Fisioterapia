@@ -169,7 +169,9 @@
 
 /* Stile per le immagini dei professionisti */
 .team-image {
-  max-height: 650px;
+  width: 90%; /* Aumenta da 75% a 90% */
+  height: auto;
+  max-height: none; /* Rimuovi il limite */
 }
 
 /* Stile per i container delle sezioni professionisti */
